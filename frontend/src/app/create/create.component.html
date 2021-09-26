@@ -1,0 +1,42 @@
+<!--TODO-->
+
+<div class="d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+        <span class="sr-only" id="loading"></span>
+    </div>
+</div>
+
+<div class="create">
+
+    <mat-card class="card">
+
+        <div>
+
+        </div>
+        <mat-form-field appearance="fill">
+            <mat-label>Artist</mat-label>
+            <input matInput value="{{rapper}}" (input)="updateLocation($event)" [formControl]="locationCntrl">
+        </mat-form-field>
+
+        <form [formGroup]="textareaForm">
+            <textarea formControlName="textinput" (keyup)="wordCounter()" id="wmd-input" name="post-text" class="wmd-input s-input bar0 js-post-body-field processed" data-post-type-id="2" cols="80" rows="15" tabindex="101" data-min-length=""></textarea>
+        </form>
+        <div style="font-style: italic;">
+            {{ remainingWords }} words remaining...
+        </div>
+        <br> {{textareaForm?.value | json}}
+
+
+
+        <!--    save button -->
+        <div>
+            <button mat-button color="accent" (click)="generate()">AI Lyrics</button>
+            <button mat-button color="primary" (click)="save()">Generate</button>
+        </div>
+
+        <ngx-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="false" muted="muted" [displayPlaylist]="msaapDisplayPlayList" [displayVolumeControls]="msaapDisplayVolumeControls" [displayRepeatControls]="msaapDisplayRepeatControls"
+            [disablePositionSlider]="msaapDisablePositionSlider" [displayArtist]="msaapDisplayArtist" [displayDuration]="msaapDisplayDuration" [expanded]="true" id="audioph"></ngx-audio-player>
+
+    </mat-card>
+
+</div>

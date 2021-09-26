@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Red+Hat+Display:wght@800&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: "segoe ui";
+}
+
+.nav {
+    height: 50px;
+    width: 90%;
+    position: relative;
+    font-family: "Montserrat";
+    margin-top: 10px;
+}
+
+.nav>.nav-header {
+    display: inline;
+    font-family: "Red Hat Display";
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 32px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-top: -10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 30px 13px 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: -5px !important;
+}
+
+.nav>.nav-links>a:hover {
+    color: blue;
+}
+
+span {
+    color: blue;
+}
+
+.logo {
+    max-height: 40px;
+    margin-top: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 60px;
+    color: black;
+}
+
+.select {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+    color: black;
+}
+
+.rapper {
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-align: center;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 650px;
+    margin-left: 27%;
+    font-family: "Montserrat";
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    font-family: "Red hat display";
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.card-title {
+    color: black !important;
+}
+
+label {
+    font-family: "Montserrat";
+}
+
+input {
+    margin-left: 28%;
+    margin-top: 20px;
+}

@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="home.component.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body background="">
+
+
+    <p class="heading">Rap Without The Rapper.</p>
+
+    <p class="select">Select A Rapper</p>
+
+    <div class="rapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" src="https://mocah.org/uploads/posts/181633-kanye-west-1920x1080.jpg" alt="Kanye West">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">Kanye West</h5>
+                        <a (click)="goToForm($event)" id="kanye" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" style="height: 133px;" src="https://lh3.googleusercontent.com/proxy/UogUC46KMUhmO2O2IyxwD_SB6vL4kknmxZRVjDwVQ0BdLG08mBgPEKYWwaAwByg-GVshValibsjPODUpI1apnGMuhqYYQxSkxuljIlxWJdWucA" alt="NAS">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">NAS</h5>
+                        <a (click)="goToForm($event)" id="nas" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" style="height: 133px;" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F03%2Fhubcap-of-gmc-suburban-car-biggie-smalls-was-shot-in-heads-to-auction-000.jpg?w=960&cbr=1&q=90&fit=max" alt="The Notorious B.I.G.">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">The Notorious B.I.G.</h5>
+                        <a (click)="goToForm($event)" id="biggie" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" src="https://ichef.bbci.co.uk/news/640/cpsprodpb/2568/production/_117467590_gettyimages-1139426981.jpg" alt="Jay-Z">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">Jay-Z</h5>
+                        <a (click)="goToForm($event)" id="jayz" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" src="https://edm.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTUzMjM5NjE1Nzc4NTk1ODQ3/rick-ross.jpg" alt="Rick Ross">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">Rick Ross</h5>
+                        <a (click)="goToForm($event)" id="rickRoss" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" style="height: 133px;" src="https://www.nme.com/wp-content/uploads/2018/08/GettyImages-1013746400-696x442.jpg" alt="
+Kendrick Lamar">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">Kendrick Lamar</h5>
+                        <a (click)="goToForm($event)" id="kendrick" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" style="height: 133px;" src="https://media.npr.org/assets/img/2011/06/17/50cent_wide-85fb40efe400229b031045718aeca6796b19ee4e.jpg?s=1400" alt="50 Cent">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">50 Cent</h5>
+                        <a (click)="goToForm($event)" id="50cent" class="btn btn-danger">Rap Now</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem; background-color: transparent;">
+                        <img class="card-img-top" style="height: 133px;" src="https://besthqwallpapers.com/Uploads/26-9-2020/142018/thumb2-kekra-french-rapper-blue-stone-background-creative-art-rap.jpg" alt="More Artist">
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" style="color: white">More Artist</h5>
+                        <a href="#" class="btn btn-danger">Loading Soon..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

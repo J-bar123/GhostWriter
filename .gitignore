@@ -1,0 +1,53 @@
+backend/config.ini
+backend/helper_scripts/getCookie.py
+backend/helper_scripts/getSong.py
+backend/helper_scripts/sendLyricRequest.py
+backend/shellhacks-327117-firebase-adminsdk-ied2w-40fa331493.json
+backend/lyric_models
+
+# compiled output
+frontend/dist
+frontend/tmp
+frontend/out-tsc
+frontend/coverage
+
+# dependencies
+frontend/node_modules
+frontend/yarn.lock
+
+# IDEs and editors
+frontend/.idea
+frontend/.project
+frontend/.classpath
+frontend/.c9/
+*.launch
+frontend/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+tslint-to-eslint-config.log
+/typings
+
+# e2e
+/e2e/src/*.js
+/e2e/src/*.map
+/cypress/screenshots
+
+# System Files
+.DS_Store
+Thumbs.db
+.node-version
+
+# debug
